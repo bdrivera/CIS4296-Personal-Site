@@ -25,7 +25,7 @@
     <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.3/dist/iconify-icon.min.js"></script>
 
     <!-- Remove this and fill in your name & photo in the required areas -->
-    <script>
+    <!--<script>
       fetch('https://randomuser.me/api/?inc=name,picture')
         .then((response) => response.json())
         .then(({ results }) => results[0])
@@ -37,7 +37,7 @@
           document.title = `${name.first} ${name.last} Personal Site`
           document.querySelector('#profilepic').src = picture.large
         })
-    </script>
+    </script>-->
 
     <link href="styles/theme.css" rel="stylesheet" />
     <link href="styles/styles.css" rel="stylesheet" />
@@ -50,7 +50,7 @@
     <nav class="navbar navbar-expand-lg bg-primary fixed-top">
       <div class="container-fluid p-2 px-lg-2 py-lg-0">
         <!-- Set Name Here -->
-        <a class="navbar-brand" href="#"></a>
+        <a class="navbar-brand" href="#">Bret Rivera</a>
         <button
           class="navbar-toggler bg-white"
           type="button"
@@ -99,93 +99,43 @@
           class="rounded-circle"
           draggable="false"
           id="profilepic"
+          src="images/profile.jpeg"
         />
       </div>
       <div class="row mx-auto">
         <h4 class="h1 font-weight-bold mx-auto text-center">
           <!-- Set Name Here -->
-          Hi <iconify-icon icon="twemoji:waving-hand"></iconify-icon> I'm
-          <span id="name"></span>!
+          <span id="name">Bret Rivera</span>
         </h4>
       </div>
       <div class="row mx-auto">
         <h5 class="h5 mx-auto text-center text-opacity-75 text-primary">
-          Information Science & Technology Student at Temple University
+          Veteran | Student | Information Technology | Cyber Security | Consulting | Leadership
         </h5>
       </div>
       <div class="row my-4 language-wrapper row-gap-5 col-gap-1 gap-lg-2">
         <div class="col text-center">
           <img
-            src="images/python.jpg"
+            src="images/usmc.png"
             data-bs-toggle="tooltip"
             data-placement="top"
-            title="Python"
+            title="USMC"
           />
         </div>
         <div class="col text-center">
           <img
-            src="images/angular.jpg"
+            src="images/temple.jpg"
             data-bs-toggle="tooltip"
             data-placement="top"
-            title="Angular"
+            title="Temple"
           />
         </div>
         <div class="col text-center">
           <img
-            src="images/typescript.jpg"
+            src="images/protiviti.webp"
             data-bs-toggle="tooltip"
             data-placement="top"
-            title="TypeScript"
-          />
-        </div>
-
-        <div class="col text-center">
-          <img
-            src="images/csharp.jpg"
-            data-bs-toggle="tooltip"
-            data-placement="top"
-            title="C#"
-          />
-        </div>
-        <div class="col text-center">
-          <img
-            src="images/node.jpg"
-            data-bs-toggle="tooltip"
-            data-placement="top"
-            title="Node.js"
-          />
-        </div>
-        <div class="col text-center">
-          <img
-            src="images/java.jpg"
-            data-bs-toggle="tooltip"
-            data-placement="top"
-            title="Java"
-          />
-        </div>
-
-        <div class="col text-center">
-          <img
-            src="images/aspnet.jpg"
-            data-bs-toggle="tooltip"
-            data-placement="top"
-            title="ASP.NET"
-          />
-        </div>
-        <div class="col text-center">
-          <img
-            src="images/mssql.jpg"
-            data-bs-toggle="tooltip"
-            data-placement="top"
-            title="Microsoft SQL Server"
-          />
-        </div>
-        <div class="col text-center">
-          <img
-            src="images/mongodb.jpg"
-            data-bs-toggle="tooltip"
-            data-placement="top"
-            title="MongoDB"
+            title="Protiviti"
           />
         </div>
       </div>
@@ -201,56 +151,74 @@
     </div>
     <div
       class="container section min-vh-100 d-flex justify-content-center flex-column align-items-center"
-      id="projects"
+      id="about"
     >
       <div class="row mx-auto">
-        <h4 class="h1 font-weight-bold mx-auto text-center">Projects</h4>
+        <h4 class="h1 font-weight-bold mx-auto text-center">About Me</h4>
       </div>
       <div class="row mx-auto">
         <h5 class="h5 mx-auto text-opacity-75 text-primary text-center mb-4">
-          I've worked on some neat things.
+          Technology Security Specialist
         </h5>
       </div>
       <div class="row w-100">
-        <h5>Inspiro for Esperanza</h5>
+        <h5>Overview</h5>
       </div>
       <div class="row w-100 mb-4">
         <p class="text-justify">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus
-          nisi in neque blandit auctor. Vestibulum pellentesque fringilla nulla
-          quis sagittis. Donec id erat sodales, fringilla est non, vestibulum
-          tellus. Suspendisse potenti. Fusce et dolor blandit, tincidunt eros
-          non, pharetra orci. Donec massa neque, suscipit at purus ac, cursus
-          tincidunt purus. Suspendisse imperdiet massa nec sem dictum luctus.
-          Vestibulum at porta lectus, sed faucibus libero.
+          A five-year U.S. Marine Corps veteran with hundreds of hours of formal education and years of hands-on experience
+          in different information technology facets having developed strengths in trouble-shooting and critical thinking.
+          I have led projects centered around the management of millions of dollars in IT equipment to save time and resources
+          using my experience in leading teams and communicating with customers and peers. Current Information Science and
+          Technology student with a focus on computer networking and cyber security.
         </p>
       </div>
       <div class="row w-100">
-        <h5>Work From Home Pinterest</h5>
+        <h5>Privacy & Security Consultant @ Protiviti Philadelphia</h5>
       </div>
       <div class="row w-100 mb-4">
         <p class="text-justify">
-          Vestibulum vulputate ullamcorper placerat. Fusce bibendum ligula non
-          ex dapibus finibus. Nulla facilisi. Integer eu libero lorem.
-          Pellentesque eget pretium ligula. Donec finibus nibh sed leo dapibus
-          imperdiet. Fusce cursus eu mi sed porttitor. Aliquam eget suscipit
-          dolor, ac mollis risus. Vestibulum commodo turpis nulla, bibendum
-          varius urna dictum porta.
+          During Summer 2023, I interned at Protiviti as a Privacy & Security Consulting intern. I worked with consultants to
+          process and map various frameworks and assessments within each other to build a current state security and technology
+          analysis for a banking client. I created and modified executive material needed to explain complex Zero Trust Maturity
+          Model topics and concepts in an easy-to-understand way, resulting in positive feedback from clients. While working with
+          fellow interns, I led my group using constructive challenges and feedback to create a cohesive team and well-honed products.
+          After an amazing experience, I chose to accept a position at Protiviti as a Security & Privacy Consultant, and will be starting
+          at the Philadelphia office following graduation from Temple.
         </p>
       </div>
       <div class="row w-100">
-        <h5>Query Dating Site</h5>
+        <h5>Sergeant @ United States Marine Corps.</h5>
       </div>
       <div class="row w-100">
+        <h6>Wireless Communications Exploitation Specialist</h6>
         <p class="text-justify">
-          Fusce egestas lectus ac est porttitor congue. Mauris lacinia pharetra
-          odio ut egestas. Nullam facilisis condimentum consequat. Integer arcu
-          nibh, ullamcorper non fringilla quis, tempus sit amet turpis. Proin ac
-          gravida mi. Ut eros quam, pharetra venenatis pharetra at, porttitor
-          sit amet dolor. Ut et accumsan metus. Phasellus eros diam, tristique a
-          maximus vel, fringilla eu nisl. Pellentesque sed quam non urna dapibus
-          porta in in nibh. Phasellus lobortis nibh est, id pretium orci
-          efficitur at.
+          Utilized specialized equipment for the purpose of analyzing the local
+          wireless signal environment to guide my team towards the best methods to accomplish our assigned goals. Trained
+          multiple teammates on proper utilization of equipment and strategies, who went on to have successful oversea
+          deployments using this skillset. Examples include fundamentals of networking and troubleshooting with Windows
+          Servers, and on-the-job training with extremely specialized computer systems.
+        </p>
+        <h6>Project Manager</h6>
+        <p class="text-justify">
+          Led teams of analysts responsible for extremely sensitive DoD wireless detection and
+          communications equipment. Drafted and instituted policies and procedures for future management of equipment after
+          identifying significant gaps in the current process. Led a major months-long project to consolidate equipment
+          management, while creating and leading the team responsible for the management of said equipment. Establishment
+          and leadership of this team resulted in dramatic decreases in administrative time expenditures and increases in
+          equipment reliability and accountability.
+        </p>
+      </div>
+      <div class="row w-100">
+        <h5>Technology Support Specialist @ Bensalem School District</h5>
+      </div>
+      <div class="row w-100 mb-4">
+        <p class="text-justify">
+          Resolved hundreds of work tickets, typically involving face-to-face communication, email
+          communication, and on the spot troubleshooting to resolve customer issues in a timely and satisfactory manner.
+          Repaired and managed Windows, MacOS, and Chromebook desktop and laptop computers. Collaborated with team of
+          five to accomplish multiple projects such as assembly of computer labs, systematic testing of MacOS machines to
+          determine future feasibility, and upgrade of internal PC hardware to extend equipment service life.
         </p>
       </div>
       <div class="row mt-3 next">
