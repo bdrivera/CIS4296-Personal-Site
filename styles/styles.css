@@ -1,6 +1,6 @@
 html,
 body {
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Courier', 'Merriweather Sans', sans-serif;
 }
 
 .section {
@@ -40,7 +40,7 @@ body {
 }
 
 .class-card {
-    background-color: #eeeeee;
+    background-color: #009999;
     color: black;
     transition-property: all;
     transition-duration: 0.3s;
@@ -49,4 +49,16 @@ body {
 .class-card:hover {
     background-color: var(--bs-primary);
     color: white;
+}
+
+h5 {
+    color: var(--bs-primary);
+}
+h6 {
+    font-weight: bold;
+}
+
+#navbar-main .active {
+    text-decoration: underline;
+    color:white;
 }
