@@ -57,3 +57,8 @@ h5 {
 h6 {
     font-weight: bold;
 }
+
+#navbar-main .active {
+    text-decoration: underline;
+    color:white;
+}
